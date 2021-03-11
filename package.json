@@ -1,0 +1,26 @@
+{
+  "name": "svg-pathize-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader for converting SVG documents to SVG path data",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkylerLipthay/svg-pathize-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "svg",
+    "path"
+  ],
+  "author": "Skyler Lipthay",
+  "license": "MIT",
+  "homepage": "https://github.com/SkylerLipthay/svg-pathize-loader",
+  "dependencies": {
+    "loader-utils": "^2.0.0",
+    "svg-pathize": "github:SkylerLipthay/svg-pathize"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
